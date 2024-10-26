@@ -1,0 +1,11 @@
+A → { M N }
+M → Ɛ | P M
+P → D i ;
+D → t | f
+N → Ɛ | Q N
+Q → i = E ;
+E → T E'
+E' → + T E' | - T E' | Ɛ
+T → F T'
+T' → * F T' | / F T' | Ɛ
+F → ( E ) | i | d
